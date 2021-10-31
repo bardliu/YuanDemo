@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61D0CE4E24F11A6500689994 /* Yuan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D0CE4D24F11A6500689994 /* Yuan.framework */; };
 		61F563E124F1116000CDF37E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F563E024F1116000CDF37E /* AppDelegate.swift */; };
-		61F563E324F1116000CDF37E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F563E224F1116000CDF37E /* SceneDelegate.swift */; };
 		61F563E524F1116000CDF37E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F563E424F1116000CDF37E /* ViewController.swift */; };
 		61F563E824F1116000CDF37E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F563E624F1116000CDF37E /* Main.storyboard */; };
 		61F563EA24F1116100CDF37E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F563E924F1116100CDF37E /* Assets.xcassets */; };
@@ -35,9 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61D0CE4D24F11A6500689994 /* Yuan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Yuan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F563DD24F1116000CDF37E /* YuanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F563E024F1116000CDF37E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		61F563E224F1116000CDF37E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		61F563E424F1116000CDF37E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		61F563E724F1116000CDF37E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61F563E924F1116100CDF37E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D0CE4E24F11A6500689994 /* Yuan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61D0CE4C24F11A6500689994 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61D0CE4D24F11A6500689994 /* Yuan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		61F563D424F1116000CDF37E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +92,7 @@
 				61F563F624F1116100CDF37E /* YuanDemoTests */,
 				61F5640124F1116100CDF37E /* YuanDemoUITests */,
 				61F563DE24F1116000CDF37E /* Products */,
+				61D0CE4C24F11A6500689994 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				61F563E024F1116000CDF37E /* AppDelegate.swift */,
-				61F563E224F1116000CDF37E /* SceneDelegate.swift */,
 				61F563E424F1116000CDF37E /* ViewController.swift */,
 				61F563E624F1116000CDF37E /* Main.storyboard */,
 				61F563E924F1116100CDF37E /* Assets.xcassets */,
@@ -130,11 +139,22 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		61D0CE4A24F11A3400689994 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		61F563DC24F1116000CDF37E /* YuanDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61F5640724F1116100CDF37E /* Build configuration list for PBXNativeTarget "YuanDemo" */;
 			buildPhases = (
+				61D0CE4A24F11A3400689994 /* Headers */,
 				61F563D924F1116000CDF37E /* Sources */,
 				61F563DA24F1116000CDF37E /* Frameworks */,
 				61F563DB24F1116000CDF37E /* Resources */,
@@ -261,7 +281,6 @@
 			files = (
 				61F563E524F1116000CDF37E /* ViewController.swift in Sources */,
 				61F563E124F1116000CDF37E /* AppDelegate.swift in Sources */,
-				61F563E324F1116000CDF37E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
